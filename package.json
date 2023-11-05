@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-practico-cypress",
+  "version": "1.0.0",
+  "description": "proyecto de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "pruebas-chrome": "cypress run --spec cypress/e2e/pruebas-orangehrm.cy.js --browser chrome"
+  },
+  "author": "liz petit",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.3"
+  }
+}
